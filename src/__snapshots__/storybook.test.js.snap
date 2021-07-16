@@ -1,5 +1,44 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots InboxScreen Default 1`] = `
+<div
+  className="page lists-show"
+>
+  <nav>
+    <h1
+      className="title-page"
+    >
+      <span
+        className="title-wrapper"
+      >
+        Taskbox
+      </span>
+    </h1>
+  </nav>
+  <div
+    className="list-items"
+  >
+    <div
+      className="wrapper-message"
+    >
+      <span
+        className="icon-check"
+      />
+      <div
+        className="title-message"
+      >
+        You have no tasks
+      </div>
+      <div
+        className="subtitle-message"
+      >
+        Sit back and relax
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots InboxScreen Error 1`] = `
 <div
   className="page lists-show"
@@ -48,6 +87,11 @@ exports[`Storyshots Task Archived 1`] = `
     <input
       placeholder="Input title"
       readOnly={true}
+      style={
+        Object {
+          "textOverflow": "ellipsis",
+        }
+      }
       type="text"
       value="Test Task"
     />
@@ -83,8 +127,61 @@ exports[`Storyshots Task Default 1`] = `
     <input
       placeholder="Input title"
       readOnly={true}
+      style={
+        Object {
+          "textOverflow": "ellipsis",
+        }
+      }
       type="text"
       value="Test Task"
+    />
+  </div>
+  <div
+    className="actions"
+    onClick={[Function]}
+  >
+    <a
+      onClick={[Function]}
+    >
+      <span
+        className="icon-star"
+      />
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Task Long Title 1`] = `
+<div
+  className="list-item TASK_INBOX"
+>
+  <label
+    className="checkbox"
+  >
+    <input
+      defaultChecked={false}
+      disabled={true}
+      name="checked"
+      type="checkbox"
+    />
+    <span
+      className="checkbox-custom"
+      onClick={[Function]}
+    />
+  </label>
+  <div
+    className="title"
+  >
+    <input
+      placeholder="Input title"
+      readOnly={true}
+      style={
+        Object {
+          "textOverflow": "ellipsis",
+        }
+      }
+      type="text"
+      value="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ''lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
     />
   </div>
   <div
@@ -126,6 +223,11 @@ exports[`Storyshots Task Pinned 1`] = `
     <input
       placeholder="Input title"
       readOnly={true}
+      style={
+        Object {
+          "textOverflow": "ellipsis",
+        }
+      }
       type="text"
       value="Test Task"
     />
@@ -157,7 +259,7 @@ exports[`Storyshots TaskList Default 1`] = `
     className="list-items"
   >
     <div
-      className="list-item undefined"
+      className="list-item TASK_INBOX"
     >
       <label
         className="checkbox"
@@ -179,6 +281,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 1"
         />
@@ -197,7 +304,7 @@ exports[`Storyshots TaskList Default 1`] = `
       </div>
     </div>
     <div
-      className="list-item undefined"
+      className="list-item TASK_INBOX"
     >
       <label
         className="checkbox"
@@ -219,6 +326,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 2"
         />
@@ -237,7 +349,7 @@ exports[`Storyshots TaskList Default 1`] = `
       </div>
     </div>
     <div
-      className="list-item undefined"
+      className="list-item TASK_INBOX"
     >
       <label
         className="checkbox"
@@ -259,6 +371,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 3"
         />
@@ -277,7 +394,7 @@ exports[`Storyshots TaskList Default 1`] = `
       </div>
     </div>
     <div
-      className="list-item undefined"
+      className="list-item TASK_INBOX"
     >
       <label
         className="checkbox"
@@ -299,6 +416,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 4"
         />
@@ -317,7 +439,7 @@ exports[`Storyshots TaskList Default 1`] = `
       </div>
     </div>
     <div
-      className="list-item undefined"
+      className="list-item TASK_INBOX"
     >
       <label
         className="checkbox"
@@ -339,6 +461,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 5"
         />
@@ -357,7 +484,7 @@ exports[`Storyshots TaskList Default 1`] = `
       </div>
     </div>
     <div
-      className="list-item undefined"
+      className="list-item TASK_INBOX"
     >
       <label
         className="checkbox"
@@ -379,6 +506,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 6"
         />
@@ -613,6 +745,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 6 (pinned)"
         />
@@ -631,7 +768,7 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
       </div>
     </div>
     <div
-      className="list-item undefined"
+      className="list-item TASK_INBOX"
     >
       <label
         className="checkbox"
@@ -653,6 +790,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 1"
         />
@@ -671,7 +813,7 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
       </div>
     </div>
     <div
-      className="list-item undefined"
+      className="list-item TASK_INBOX"
     >
       <label
         className="checkbox"
@@ -693,6 +835,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 2"
         />
@@ -711,7 +858,7 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
       </div>
     </div>
     <div
-      className="list-item undefined"
+      className="list-item TASK_INBOX"
     >
       <label
         className="checkbox"
@@ -733,6 +880,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 3"
         />
@@ -751,7 +903,7 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
       </div>
     </div>
     <div
-      className="list-item undefined"
+      className="list-item TASK_INBOX"
     >
       <label
         className="checkbox"
@@ -773,6 +925,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 4"
         />
@@ -791,7 +948,7 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
       </div>
     </div>
     <div
-      className="list-item undefined"
+      className="list-item TASK_INBOX"
     >
       <label
         className="checkbox"
@@ -813,6 +970,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 5"
         />
